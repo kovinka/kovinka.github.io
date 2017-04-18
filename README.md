@@ -1,1 +1,0 @@
-# kovinka.github.io
