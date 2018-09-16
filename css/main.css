@@ -27,7 +27,7 @@ body {
 
 .list__item {
   display: inline-block;
-  margin: 0 8px;
+  margin: 0 8px 8px;
 }
 
 .list__item-link {
@@ -35,4 +35,11 @@ body {
   border: 2px solid #fff;
   display: inline-block;
   padding: 10px 20px;
+  min-width: 100px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.list__item-link:hover {
+  background: #fff;
+  color: rgb(182, 25, 36);
 }
