@@ -1,9 +1,38 @@
-h1 {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: 9;
-    transform: translate(-50%, -50%);
-    font-size: 48px;
-    color: #fff;
+body {
+  font-size: 14px;
+  font-family: 'Oswald', sans-serif;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  min-width: 320px;
+  color: #fff;
+  font-size: 16px;
+}
+.about {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.title {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 22px;
+  margin-bottom: 24px;
+}
+
+.list__item {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.list__item-link {
+  color: #fff;
+  border: 2px solid #fff;
+  display: inline-block;
+  padding: 10px 20px;
 }

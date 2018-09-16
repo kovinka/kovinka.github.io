@@ -1,18 +1,44 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Oleksandr Kovinka | Frontend Developer</title>
     <link rel="stylesheet" href="./css/particles.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
-    <script src="./js/particles.min.js"></script>
-    <script src="./js/main.js"></script>
 </head>
+
 <body>
     <div id="particles-js"></div>
-    <h1>Demo website</h1>
+    <div class="about">
+        <h1 class="title">Oleksandr Kovinka</h1>
+        <p class="description">Frontend Developer</p>
+        <ul class="list">
+            <li class="list__item">
+                <a class="list__item-link" target="_blank" href="https://github.com/kovinka">GitHub</a>
+            </li>
+            <li class="list__item">
+                <a class="list__item-link" target="_blank" href="https://twitter.com/kovinka87">Twitter</a>
+            </li>
+            <li class="list__item">
+                <a class="list__item-link" target="_blank" href="https://www.linkedin.com/in/oleksandr-кovinka-779a2169/">LinkedIn</a>
+            </li>
+            <li class="list__item">
+                <a class="list__item-link" target="_blank" href="mailto: kovinka2012@gmail.com">Email</a>
+            </li>
+        </ul>
+    </div>
+
+    <script src="./js/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', './particles.json', () => {
+            console.log('callback - particles.js config loaded')
+        })
+    </script>
 </body>
+
 </html>
